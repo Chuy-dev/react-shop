@@ -1,0 +1,47 @@
+@import 'vars';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.message-error {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-error h2 {
+  font-size: 100px;
+  margin-bottom: 0;
+}
+.message-error:hover h2 {
+  transition: 1s;
+  color: var(--hospital-green);
+}
+.message-error p {
+  font-weight: bold;
+}
+.message-error:hover p {
+  transition: 1s;
+  color: var(--hospital-green);
+}
+
+
+.primary-button {
+  background-color: var(--hospital-green);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 50px;
+}
+.login-button {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
